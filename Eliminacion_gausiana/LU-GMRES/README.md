@@ -55,6 +55,7 @@ Para matrices pequeñas (500, 1000), el tiempo que tarda OpenMP en crear y sincr
 ---
 ## Estructura del proyecto
 
+```text
 LU-GMRES/
 │
 ├── src/                         # Código fuente en C
@@ -77,6 +78,4 @@ LU-GMRES/
 │
 ├── gaussian.exe                 # Ejecutable compilado (Windows)
 └── README.md                    # Documentación del proyecto
-
-## Estructura del proyecto
-
+```
