@@ -1,3 +1,6 @@
+Eliminación Gaussiana con OpenMP
+Práctica Final 
+
 ¿Cuál fue el problema?
 El objetivo fue resolver sistemas de ecuaciones lineales de la forma Ax = b, donde A es una matriz cuadrada de tamaño N×N. Este tipo de problema aparece en simulaciones científicas, ingeniería y procesamiento de datos, y se vuelve muy costoso computacionalmente cuando las matrices son grandes.
 Para resolverlo se implementó la Eliminación Gaussiana con pivoteo parcial, primero de forma serial (un solo hilo) y luego de forma paralela usando OpenMP, con el fin de comparar el rendimiento de ambas versiones.
